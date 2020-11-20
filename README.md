@@ -1,2 +1,27 @@
-# eggd_dias_reports_workflow
-Workflow definition for Dias reports
+# dias_reports (DNAnexus Platform Workflow)
+DNAnexus workflow definition file of dias_single for germline analysis.
+
+-------
+
+## Current Version: 1.0.0
+
+## Release Notes:
+* Accepts any number of fastq files for the fastqc step.
+
+## What apps are used in this workflow?
+
+|  App 	| Version  	|
+|---	|---	|
+|vcf2xls_nirvana    |1.3.1|
+|generate_bed       |1.0.2|
+|athena             |1.0.3|
+
+
+
+## What release of dias.py is required to run this workflow?
+
+Works with dias_batch_running v1.5.0
+
+
+
+#### This workflow was made by EMEE GLH
