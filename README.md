@@ -5,9 +5,6 @@ DNAnexus workflow definition file of dias_single for germline analysis.
 
 ## Current Version: 1.0.0
 
-## Release Notes:
-* Accepts any number of fastq files for the fastqc step.
-
 ## What apps are used in this workflow?
 
 |  App 	| Version  	|
