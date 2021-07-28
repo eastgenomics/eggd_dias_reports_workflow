@@ -16,7 +16,7 @@
       "folder": "/apps_workflows/dias_DEV/v1.5.0",
       "input": {
         "summary": true,
-        "limit": 100,
+        "limit": 260,
         "panel_bed": {
           "$dnanexus_link": {
             "outputField": "bed_file",
