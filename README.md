@@ -10,7 +10,7 @@ DNAnexus workflow definition file of dias_single for germline analysis.
 |  App 	| Version  	|
 |---	|---	|
 |vcf2xls_nirvana    |1.4.2|
-|generate_bed       |1.1.3|
+|generate_bed       |1.1.4|
 |athena             |1.2.1|
 
 
