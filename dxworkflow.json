@@ -3,17 +3,30 @@
   "title": "dias_reports_v1.1.2",
   "stages": [
     {
+      "id": "stage-G4BJkJQ4JxJvBv5vJq50vJZ8",
+      "name": "generate_bed_for_vcf2xls",
+      "executable": "applet-G49452Q433GzX0jy3Gg60vz6",
+    },
+    {
       "id": "stage-Fyq5ypj433GzxPK360B8Qfg5",
-      "executable": "applet-G2qf1p8433GvqVXQKKv47PB5"
+      "executable": "applet-G4Jp2P0433Gpy60jPPbYBx4P",
+      "input": {
+        "panel_bed": {
+          "$dnanexus_link": {
+            "outputField": "bed_file",
+            "stage": "stage-G4BJkJQ4JxJvBv5vJq50vJZ8"
+          }
+        }
+      }
     },
     {
       "id": "stage-Fyq5yy0433GXxz691bKyvjPJ",
-      "executable": "applet-G419Qq0433Gvb8qJ5FB5J8qQ"
+      "name": "generate_bed_for_athena",
+      "executable": "applet-G49452Q433GzX0jy3Gg60vz6"
     },
     {
       "id": "stage-Fyq5z18433GfYZbp3vX1KqjB",
-      "executable": "applet-G3x74QQ433GbBYyv2fgXZbpq",
-      "folder": "/apps_workflows/dias_DEV/v1.5.0",
+      "executable": "applet-G48VfX8433GypYP8418pPfq7",
       "input": {
         "summary": true,
         "limit": 260,

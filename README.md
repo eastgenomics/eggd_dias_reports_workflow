@@ -3,21 +3,21 @@ DNAnexus workflow definition file of dias_single for germline analysis.
 
 -------
 
-## Current Version: 1.1.2
+## Current Version: 1.2.0
 
 ## What apps are used in this workflow?
 
 |  App 	| Version  	|
 |---	|---	|
-|vcf2xls_nirvana    |1.4.2|
-|generate_bed       |1.1.4|
-|athena             |1.2.1|
+|vcf2xls_nirvana    |1.2.0|
+|generate_bed       |1.1.5|
+|athena             |1.2.2|
 
 
 
 ## What release of dias.py is required to run this workflow?
 
-Works with dias_batch_running v1.6.0
+Works with dias_batch_running v1.7.0
 
 
 
