@@ -7,7 +7,7 @@
       "executable": "applet-G70x6bQ433GyQFY6PJ4b37Z4",
       "input": {
         "fields": "GNOMAD_AF:=AF",
-        "output_suffix": "popmax",
+        "output_suffix": "gnomad_af",
         "src_vcf": {
           "$dnanexus_link": {
             "project": "project-Fkb6Gkj433GVVvj73J7x8KbV",
