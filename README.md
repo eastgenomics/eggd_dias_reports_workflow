@@ -10,7 +10,7 @@ DNAnexus workflow definition file of dias_reports for germline analysis.
 |  App 	| Version  	|
 |---	|---	|
 |vcf_annotator      |1.1.0|
-|vcf2xls_nirvana    |1.6.0|
+|vcf2xls_nirvana    |1.6.1|
 |generate_bed       |1.1.5|
 |athena             |1.2.2|
 
