@@ -18,7 +18,7 @@ DNAnexus workflow definition file of dias_single for germline analysis.
 
 ## What release of dias.py is required to run this workflow?
 
-Works with dias_batch_running v1.8.0
+Works with dias_batch_running v1.9.0
 
 
 
