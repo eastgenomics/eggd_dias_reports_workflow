@@ -1,5 +1,5 @@
 # dias_reports (DNAnexus Platform Workflow)
-DNAnexus workflow definition file of dias_single for germline analysis.
+DNAnexus workflow definition file of dias_report for germline analysis.
 
 -------
 
