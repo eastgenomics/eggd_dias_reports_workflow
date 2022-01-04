@@ -6,7 +6,7 @@
       "id": "stage-G72pJpj46jqgk1y3Kbb1KBxY",
       "executable": "applet-G70x6bQ433GyQFY6PJ4b37Z4",
       "input": {
-        "fields": "GNOMAD_AF:=AF",
+        "fields": "GNOMAD_AF",
         "output_suffix": "gnomad_af",
         "src_vcf": {
           "$dnanexus_link": {
@@ -35,7 +35,7 @@
     },
     {
       "id": "stage-Fyq5ypj433GzxPK360B8Qfg5",
-      "executable": "app-eggd_vcf2xls_nirvana/1.6.0",
+      "executable": "app-eggd_vcf2xls_nirvana/1.6.1",
       "input": {
         "panel_bed": {
           "$dnanexus_link": {
