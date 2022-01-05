@@ -42,6 +42,12 @@
             "outputField": "bed_file",
             "stage": "stage-G4BJkJQ4JxJvBv5vJq50vJZ8"
           }
+        },
+        "annotated_vcf": {
+          "$dnanexus_link": {
+            "stage": "stage-G72pJpj46jqgk1y3Kbb1KBxY",
+            "outputField": "annotated_vcf"
+          }
         }
       }
     },
