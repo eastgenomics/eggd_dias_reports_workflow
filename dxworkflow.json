@@ -34,23 +34,32 @@
       "name": "eggd_vcf_annotator_GNOMAD_GENOMES_AF",
       "executable": "applet-G70x6bQ433GyQFY6PJ4b37Z4",
       "input": {
-        "src_vcf_idx": {
-          "$dnanexus_link": "file-G6zvbFj4Kq47J4fY1pXGYgbK"
-        },
-        "ref_tar": {
-          "$dnanexus_link": "file-F3zxG0Q4fXX9YFjP1v5jK9jf"
-        },
         "dest_vcf": {
           "$dnanexus_link": {
             "stage": "stage-G72pJpj46jqgk1y3Kbb1KBxY",
             "outputField": "annotated_vcf"
           }
         },
-        "src_vcf": {
-          "$dnanexus_link": "file-G6zvbFj4Kq40Byxg1vkBq6fQ"
-        },
         "fields": "GNOMAD_GENOMES_AF:=AF",
-        "output_suffix": "GNOMAD_GENOMES_AF"
+        "output_suffix": "GNOMAD_GENOMES_AF",
+        "src_vcf": {
+          "$dnanexus_link": {
+            "project": "project-Fkb6Gkj433GVVvj73J7x8KbV",
+            "id": "file-G6zvbFj4Kq40Byxg1vkBq6fQ"
+          }
+        },
+        "src_vcf_idx": {
+          "$dnanexus_link": {
+            "project": "project-Fkb6Gkj433GVVvj73J7x8KbV",
+            "id": "file-G6zvbFj4Kq47J4fY1pXGYgbK"
+          }
+        },
+        "ref_tar": {
+          "$dnanexus_link": {
+            "project": "project-Fkb6Gkj433GVVvj73J7x8KbV",
+            "id": "file-F3zxG0Q4fXX9YFjP1v5jK9jf"
+          }
+        }
       }
     },
     {
