@@ -9,22 +9,22 @@
       "input": {
         "fields": "TWE_AF:=AF",
         "output_suffix": "TWE_AF",
-        "src_vcf": {
-          "$dnanexus_link": {
-            "project": "project-G7Y9zpj4kFXF78JjFgj70q3V",
-            "id": "file-G7xGgF84kFX13YqX8B2zvXY5"
-          }
-        },
         "ref_tar": {
           "$dnanexus_link": {
             "project": "project-Fkb6Gkj433GVVvj73J7x8KbV",
             "id": "file-F3zxG0Q4fXX9YFjP1v5jK9jf"
           }
         },
+        "src_vcf": {
+          "$dnanexus_link": {
+            "project": "project-Fkb6Gkj433GVVvj73J7x8KbV",
+            "id": "file-G7yVZj04kFX7XZFv1y0Jq2QG"
+          }
+        },
         "src_vcf_idx": {
           "$dnanexus_link": {
-            "project": "project-G7Y9zpj4kFXF78JjFgj70q3V",
-            "id": "file-G7xGgP04kFXP40Pb8Fk4819g"
+            "project": "project-Fkb6Gkj433GVVvj73J7x8KbV",
+            "id": "file-G7yVb804kFXP40Pb8Fk4z6x3"
           }
         }
       }
