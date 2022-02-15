@@ -102,7 +102,7 @@
     },
     {
       "id": "stage-Fyq5ypj433GzxPK360B8Qfg5",
-      "executable": "app-eggd_vcf2xls_nirvana/1.6.2",
+      "executable": "app-eggd_vcf2xls_nirvana/1.7.0",
       "input": {
         "panel_bed": {
           "$dnanexus_link": {
@@ -110,7 +110,7 @@
             "stage": "stage-G4BJkJQ4JxJvBv5vJq50vJZ8"
           }
         },
-        "annotations": "GNOMAD_AF",
+        "annotations": "TWE_AF;GNOMAD_GENOMES_AF;GNOMAD_EXOMES_AF",
         "annotated_vcf": {
           "$dnanexus_link": {
             "stage": "stage-G80XZyj4k8jkV4GX9123j14g",
