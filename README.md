@@ -3,7 +3,7 @@ DNAnexus workflow definition file of dias_reports for germline analysis.
 
 -------
 
-## Current Version: 2.0.1
+## Current Version: 2.0.3
 
 ## What apps are used in this workflow?
 
