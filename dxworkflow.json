@@ -1,6 +1,6 @@
 {
-  "name": "dias_reports_v2.0.2",
-  "title": "dias_reports_v2.0.2",
+  "name": "dias_reports_v2.0.3",
+  "title": "dias_reports_v2.0.3",
   "stages": [
     {
       "id": "stage-G9P8p104vyJJGy6y86FQBxkv",
@@ -47,7 +47,11 @@
     {
       "id": "stage-Fyq5yy0433GXxz691bKyvjPJ",
       "name": "generate_bed_for_athena",
-      "executable": "app-generate_bed/1.2.0"
+      "executable": "app-generate_bed/1.2.0",
+      "input": {
+        "limit": 260,
+        "summary": true
+      }
     },
     {
       "id": "stage-Fyq5z18433GfYZbp3vX1KqjB",
