@@ -45,7 +45,7 @@
       }
     },
     {
-      "id": "stage-Fyq5yy0433GXxz691bKyvjPJ",
+      "id": "stage-rpt_generate_bed_athena",
       "name": "generate_bed_for_athena",
       "executable": "app-generate_bed/1.2.0"
     },
@@ -58,7 +58,7 @@
         "panel_bed": {
           "$dnanexus_link": {
             "outputField": "bed_file",
-            "stage": "stage-Fyq5yy0433GXxz691bKyvjPJ"
+            "stage": "stage-rpt_generate_bed_athena"
           }
         }
       }
