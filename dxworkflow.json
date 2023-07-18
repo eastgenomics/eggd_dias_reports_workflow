@@ -9,7 +9,7 @@
       "folder": "/workflow"
     },
     {
-      "id": "stage-G9Q0jzQ4vyJ3x37X4KBKXZ5v",
+      "id": "stage-rpt_vep",
       "executable": "app-eggd_vep/1.1.0",
       "input": {
         "panel_bed": {
@@ -38,7 +38,7 @@
           {
             "$dnanexus_link": {
               "outputField": "annotated_vcf",
-              "stage": "stage-G9Q0jzQ4vyJ3x37X4KBKXZ5v"
+              "stage": "stage-rpt_vep"
             }
           }
         ]
