@@ -50,7 +50,7 @@
       "executable": "app-generate_bed/1.2.0"
     },
     {
-      "id": "stage-Fyq5z18433GfYZbp3vX1KqjB",
+      "id": "stage-rpt_athena",
       "executable": "app-eggd_athena/1.5.0",
       "input": {
         "limit": 260,
