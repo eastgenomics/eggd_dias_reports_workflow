@@ -21,7 +21,7 @@
       }
     },
     {
-      "id": "stage-G9P8VQj4vyJBJ0kg50vzVPxY",
+      "id": "stage-rpt_generate_workbook",
       "executable": "app-eggd_generate_variant_workbook/2.5.0",
       "folder": "/workflow",
       "input": {
