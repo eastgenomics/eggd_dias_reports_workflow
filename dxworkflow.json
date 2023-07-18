@@ -3,7 +3,7 @@
   "title": "dias_reports_v2.0.4",
   "stages": [
     {
-      "id": "stage-G9P8p104vyJJGy6y86FQBxkv",
+      "id": "stage-rpt_generate_bed_vep",
       "name": "generate_bed_for_vep",
       "executable": "app-generate_bed/1.2.0",
       "folder": "/workflow"
@@ -15,7 +15,7 @@
         "panel_bed": {
           "$dnanexus_link": {
             "outputField": "bed_file",
-            "stage": "stage-G9P8p104vyJJGy6y86FQBxkv"
+            "stage": "stage-rpt_generate_bed_vep"
           }
         }
       }
