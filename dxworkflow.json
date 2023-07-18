@@ -22,7 +22,7 @@
     },
     {
       "id": "stage-G9P8VQj4vyJBJ0kg50vzVPxY",
-      "executable": "app-eggd_generate_variant_workbook/2.0.3",
+      "executable": "app-eggd_generate_variant_workbook/2.5.0",
       "folder": "/workflow",
       "input": {
         "exclude_columns": "BaseQRankSum ClippingRankSum DB ExcessHet FS MLEAC MLEAF MQ MQRankSum QD ReadPosRankSum SOR PL QUAL ID FILTER  CSQ_ClinVar_CLNSIGCONF  CSQ_Allele CSQ_HGNC_ID DP AC AF AN CSQ_SpliceAI_pred_DP_AL CSQ_SpliceAI_pred_DP_AG CSQ_SpliceAI_pred_DP_DG CSQ_SpliceAI_pred_DP_DL",
