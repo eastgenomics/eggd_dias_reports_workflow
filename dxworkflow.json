@@ -10,7 +10,7 @@
     },
     {
       "id": "stage-G9Q0jzQ4vyJ3x37X4KBKXZ5v",
-      "executable": "app-eggd_vep/1.0.0",
+      "executable": "app-eggd_vep/1.1.0",
       "input": {
         "panel_bed": {
           "$dnanexus_link": {
