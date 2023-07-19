@@ -44,8 +44,6 @@
       "id": "stage-rpt_athena",
       "executable": "app-eggd_athena/1.5.0",
       "input": {
-        "limit": 260,
-        "summary": true,
         "panel_bed": {
           "$dnanexus_link": {
             "outputField": "bed_file",
