@@ -12,7 +12,7 @@ DNAnexus workflow definition file of dias_reports for germline analysis.
 |eggd_vep      |1.1.0|
 |eggd_generate_variant_workbook    |2.5.0|
 |generate_bed       |1.2.0|
-|athena             |1.5.0|
+|athena             |1.4.0|
 
 ## What release of dias.py is required to run this workflow?
 
