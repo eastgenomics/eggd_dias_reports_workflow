@@ -42,7 +42,7 @@
     },
     {
       "id": "stage-rpt_athena",
-      "executable": "app-eggd_athena/1.5.0",
+      "executable": "app-eggd_athena/1.4.0",
       "input": {
         "panel_bed": {
           "$dnanexus_link": {
