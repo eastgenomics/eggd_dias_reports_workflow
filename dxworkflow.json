@@ -10,7 +10,7 @@
     },
     {
       "id": "stage-rpt_vep",
-      "executable": "app-eggd_vep/1.1.0",
+      "executable": "app-eggd_vep/1.3.0",
       "input": {
         "panel_bed": {
           "$dnanexus_link": {
