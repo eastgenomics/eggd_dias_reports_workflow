@@ -23,7 +23,7 @@
     {
       "id": "stage-rpt_optimised_filtering",
       "name": "eggd_optimised_filtering",
-      "executable": "app-eggd_optimised_filtering/1.0.0",
+      "executable": "app-eggd_optimised_filtering/1.1.0",
       "folder": "/workflow",
       "input": {
         "input_vcf": {
