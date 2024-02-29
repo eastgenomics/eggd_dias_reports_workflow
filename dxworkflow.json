@@ -36,7 +36,7 @@
     },
     {
       "id": "stage-rpt_generate_workbook",
-      "executable": "app-eggd_generate_variant_workbook/2.7.1",
+      "executable": "app-eggd_generate_variant_workbook/2.8.0",
       "folder": "/workflow",
       "input": {
         "vcfs": [
