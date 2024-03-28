@@ -3,7 +3,7 @@ DNAnexus workflow definition file of dias_reports for germline analysis.
 
 -------
 
-## Current Version: 2.2.0
+## Current Version: 2.2.1
 
 ## What apps are used in this workflow?
 
@@ -11,7 +11,7 @@ DNAnexus workflow definition file of dias_reports for germline analysis.
 |---	|---	|
 |eggd_vep      |1.3.0|
 |eggd_optimised_filtering      |1.1.0|
-|eggd_generate_variant_workbook    |2.8.0|
+|eggd_generate_variant_workbook    |2.8.1|
 |eggd_generate_bed       |1.3.0|
 |eggd_athena             |1.6.0|
 
