@@ -1,24 +1,10 @@
 {
-  "name": "dias_reports_v2.2.2",
-  "title": "dias_reports_v2.2.2",
+  "name": "dias_reports_v2.3.0",
+  "title": "dias_reports_v2.3.0",
   "stages": [
     {
-      "id": "stage-rpt_generate_bed_vep",
-      "name": "generate_bed_for_vep",
-      "executable": "app-eggd_generate_bed/1.3.0",
-      "folder": "/workflow"
-    },
-    {
       "id": "stage-rpt_vep",
-      "executable": "app-eggd_vep/1.3.0",
-      "input": {
-        "panel_bed": {
-          "$dnanexus_link": {
-            "outputField": "bed_file",
-            "stage": "stage-rpt_generate_bed_vep"
-          }
-        }
-      }
+      "executable": "app-eggd_vep/1.3.0"
     },
     {
       "id": "stage-rpt_optimised_filtering",
@@ -50,21 +36,8 @@
       }
     },
     {
-      "id": "stage-rpt_generate_bed_athena",
-      "name": "generate_bed_for_athena",
-      "executable": "app-eggd_generate_bed/1.3.0"
-    },
-    {
       "id": "stage-rpt_athena",
-      "executable": "app-eggd_athena/1.6.1",
-      "input": {
-        "panel_bed": {
-          "$dnanexus_link": {
-            "outputField": "bed_file",
-            "stage": "stage-rpt_generate_bed_athena"
-          }
-        }
-      }
+      "executable": "app-eggd_athena/1.6.1"
     }
   ]
 }
