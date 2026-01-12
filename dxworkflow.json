@@ -37,7 +37,7 @@
     },
     {
       "id": "stage-rpt_athena",
-      "executable": "app-eggd_athena/1.6.1"
+      "executable": "app-eggd_athena/1.6.2"
     }
   ]
 }
